@@ -1,9 +1,26 @@
-.nav {
-  background: #fcfcfc;
+.navbar {
+  background-color: #fcfcfc;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   margin: 0;
 }
 
-.menu-ay a {
-  margin: 25px;
+ul {
+  display: flex;
+  gap: 15px;
+  list-style-type: none;
   text-decoration: none;
+}
+
+.nav-link {
+  text-decoration: none;
+  /* color:  */
+}
+
+Link {
+  list-style-type: none;
+  text-decoration: none;
+  color: inherit;
 }

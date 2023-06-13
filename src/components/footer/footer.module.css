@@ -1,0 +1,102 @@
+.row {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  display: flex;
+  font-size: 16px;
+  text-decoration: #414141;
+  gap: 3;
+  padding: 5%;
+  margin: auto;
+  background-color: #fcfcfc;
+}
+.card-header {
+  background-color: yellowgreen;
+  display: flex;
+}
+.fit {
+  background-color: #ffd02b;
+  color: #053aab;
+  font-family: "inter";
+  font-weight: normal;
+}
+
+.companyhead {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.company {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  /* background-color: #053AAB; */
+}
+
+.footer {
+  display: flex;
+  background-color: #fcfcfc;
+  gap: 15%;
+  margin-top: 5%;
+  padding: 7%;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.news {
+  background-image: url(../../../public/img/news.png);
+  width: 100%;
+  height: 356px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10%;
+}
+
+.textOne {
+  font-size: 32px;
+}
+
+.textTwo {
+  font-size: 20px;
+}
+.newsOne {
+  width: 427px;
+}
+
+.newsForm {
+  width: 312px;
+  height: 285px;
+  border: 1px solid #053aab;
+  border-radius: 16px;
+  padding: 1%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.name{
+  font-size: 16px;
+}
+
+input{
+  width: 280px;
+  height: 48px;
+  background-color: transparent;
+  border: 1px solid;
+}
+
+.button{
+  background-color: #053aab;
+  width: 280px;
+  height: 53px;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}

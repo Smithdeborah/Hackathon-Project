@@ -1,0 +1,72 @@
+.hero {
+  background-image: url(../../../public/img/FAQ.png);
+  background-size: cover;
+  width: 100%;
+  height: 398px;
+}
+
+.faq1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  width: 717px;
+  height: 88px;
+  left: calc(50% - 717px / 2 + 0.5px);
+  top: 174px;
+  font-family: "Inter";
+  color: #ffffff;
+}
+
+.faq2 {
+  font-size: 48px;
+}
+
+.faq3 {
+  font-size: 20px;
+}
+
+.overlay {
+  background-color: rgba(5, 58, 171, 0.5);
+  height: 398px;
+}
+
+.faqimg {
+  width: 500px;
+  height: 375px;
+}
+
+.firstdiv {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 40px;
+  gap: 64px;
+  width: 647px;
+  /* height: 723px; */
+  border: 1px solid #c0c0c0;
+  border-radius: 8px;
+}
+
+.divHead {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.divText{
+    font-size: 16px;
+}
+
+.MPQ{
+    display: flex;
+    gap: 40px;
+    margin: 5% 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.faqs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

@@ -1,0 +1,142 @@
+.aboutHead{
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.imageOne{
+    width: 645px;
+    height: 50px;
+}
+
+.aboutContainer{
+    font-family: Inter;
+}
+
+.sectionOne{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5% 0;
+}
+
+.abouttext{
+    font-size: 18px;
+    width: 949px;
+}
+
+.sectionTwo{
+    display: flex;
+    flex-direction: column  ;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionHead{
+    font-size: 24px;
+}
+
+.sectionttext{
+    font-size: 14px;
+    width: 196px;
+}
+
+.shipImg{
+    width: 100px;
+    height: 100px;
+}
+
+.sub-section{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutimages{
+    display: flex;
+    gap: 20px;
+    margin: 2% 0;
+}
+
+.aboutimages2{
+    display: flex;
+    gap: 5px;
+    margin: 2% 0;
+}
+
+.section_five {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8%;
+  padding-top: 5%;
+   width: 1199px;
+  margin: 0 auto;
+}
+
+.img4 {
+  width: 583px;
+  height: 447px;
+}
+
+.sideText {
+  width: 469px;
+}
+
+.mtext {
+  font-size: 32px;
+}
+
+.mtext2 {
+  font-size: 20px;
+}
+
+.mission2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8%;
+  padding-top: 5%;
+  width: 1199px;
+  margin: 0 auto;
+}
+
+.missiontext {
+  width: 469px;
+  font-size: 20px;
+}
+
+.text2 {
+  text-align: justify;
+  font-size: 20px;
+}
+
+.sponsorImg{
+    width: 715px;
+    height: 100px;
+}
+
+.sectionFive{
+    margin: 5% 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.lastText{
+    width: 1015px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5% auto;
+    text-align: center;
+}
+
+.lastHead{
+    font-size: 32px;
+}

@@ -1,0 +1,121 @@
+.contactContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin: 5% 0;
+}
+
+.contactimg1 {
+  /* width: 200px; */
+  height: 200px;
+}
+
+.callButton {
+  background-color: #053aab;
+  width: 273px;
+  height: 41px;
+  font-size: 16px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.containerOne {
+  width: 790px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 322px;
+  gap: 200px;
+}
+
+.contactText {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contactContainerTwo {
+  width: 1200px;
+  height: 288px;
+  background-color: #fbfbfb;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.textTwo {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.headingText {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.columns {
+  display: flex;
+  gap: 60px;
+}
+
+.mapping{
+    display: flex;
+}
+
+.theMap{
+    width: 598px;
+    height: 537px;
+    border-radius: 8px;
+}
+
+.mapping{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.mapForm{
+    display: flex;
+    flex-direction: column;
+    gap: 31px;
+    width: 422px;
+}
+
+.inputs{
+    height: 40px;
+    width: 422px;
+}
+
+textarea{
+    height: 245px;
+}
+
+.button{
+    height: 41px;
+    background-color: #053aab;
+    color: #fbfbfb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mapHeading{
+    font-size: 28px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.feedMap{
+    padding: 5% 0;
+    margin: 5% 0;
+    background-color: #fbfbfb;
+}
+
