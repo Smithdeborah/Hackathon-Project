@@ -20,14 +20,7 @@ const Navbar = () => {
               Home
             </Link>
           </li>
-          <li>
-            <Link
-              to="/Booking"
-              style={{ color: "inherit", textDecoration: "none" }}
-            >
-              Booking
-            </Link>
-          </li>
+
           <li>
             <Link
               to="/FAQs"
@@ -55,13 +48,14 @@ const Navbar = () => {
           <li>
             <Link
               to="/Aboutus"
-              style={{ color: "inherit", textDecoration: "none" }}>
+              style={{ color: "inherit", textDecoration: "none" }}
+            >
               About us
             </Link>
           </li>
         </ul>
         <div className="sign-up">
-            <FaUser />
+          <FaUser />
         </div>
       </nav>
     </>
