@@ -39,6 +39,14 @@ const Navbar = () => {
           </li>
           <li>
             <Link
+              to="/booking"
+              style={{ color: "inherit", textDecoration: "none" }}
+            >
+            Booking
+            </Link>
+          </li>
+          <li>
+            <Link
               to="/contacts"
               style={{ color: "inherit", textDecoration: "none" }}
             >

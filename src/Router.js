@@ -8,7 +8,8 @@ import Aboutus from "./components/Aboutus/Aboutus";
 // import Booking from "./components/Booking/Booking";
 import Contacts from "./components/Contacts/Contacts";
 import LocationRoute from "./components/LocationRoute/LocationRoute";
-
+import TheBooking from "../src/components/TheBooking/TheBooking";
+// import TheBooking from "./components/TheBooking/theBooking";
 
 export const Router = () => {
   return (
@@ -19,8 +20,9 @@ export const Router = () => {
         <Route path="/FAQs" element={<FAQ />} />
         <Route path="/Aboutus" element={<Aboutus />} />
         {/* <Route path="/Booking" element={<Booking />} /> */}
-        <Route path="/contacts" element={<Contacts/>} />
-        <Route path="/route" element={<LocationRoute/>} />
+        <Route path="/contacts" element={<Contacts />} />
+        <Route path="/route" element={<LocationRoute />} />
+        <Route path="/booking" element={<TheBooking />} />
       </Routes>
       <Footer />
     </div>
