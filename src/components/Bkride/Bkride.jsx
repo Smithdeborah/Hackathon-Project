@@ -113,7 +113,7 @@ const Bkride = () => {
               <img src="./img/part5.png" alt="/" />
             </div>
             <div class="col">
-              <img src="./img/part3.png" alt="/" />
+              <img src="./img/part3.png" alt="ride" />
             </div>
           </div>
         </div>
