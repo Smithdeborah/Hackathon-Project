@@ -17,7 +17,7 @@ const Hero2 = () => {
             </p>
           </div>
           <div className="col-md-6 mt-5">
-            <img src={picture} alt="Picture" className="img-fluid" />
+            <img src={picture} alt="/" className="img-fluid" />
           </div>
         </div>
       </div>

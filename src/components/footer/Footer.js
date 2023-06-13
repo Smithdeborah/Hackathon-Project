@@ -1,13 +1,6 @@
 import React from "react";
-import ReactDOM from "react-dom";
 import "bootstrap/dist/css/bootstrap.css";
 import style from "./footer.module.css";
-import Button from "react-bootstrap/Button";
-import Form from "react-bootstrap/Form";
-import { container } from "react-bootstrap";
-import Col from "react-bootstrap/Col";
-import form from "react-bootstrap/Form";
-import Modal from "react-bootstrap/Modal";
 import { ImLocation2 } from "react-icons/im";
 import { IoMdMail } from "react-icons/io";
 import { BsTelephone } from "react-icons/bs";

@@ -1,13 +1,12 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.css";
 import style from "./Bkride.module.css";
-import { FaLocationArrow, FaLowVision } from "react-icons/fa";
+import { FaLocationArrow } from "react-icons/fa";
 import { FaRegCreditCard } from "react-icons/fa";
 import { BsFillCartFill } from "react-icons/bs";
 import { MdOutlineMonitor } from "react-icons/md";
 import { SiHomeassistantcommunitystore } from "react-icons/si";
 import { IoMdBicycle } from "react-icons/io";
-import { Container } from "react-bootstrap";
 import Hero from "../Hero/Hero";
 import Hero2 from "../Hero2/Hero2";
 
@@ -102,19 +101,19 @@ const Bkride = () => {
               </p>
             </div>
             <div class="col">
-              <img src="./img/part1.png" alt="Image" />
+              <img src="./img/part1.png" alt="/" />
             </div>
             <div class="col">
-              <img src="./img/part2.png" alt="Image" />
+              <img src="./img/part2.png" alt="/" />
             </div>
             <div class="col">
-              <img src="./img/part4.png" alt="Image" />
+              <img src="./img/part4.png" alt="/" />
             </div>
             <div class="col">
-              <img src="./img/part5.png" alt="Image" />
+              <img src="./img/part5.png" alt="/" />
             </div>
             <div class="col">
-              <img src="./img/part3.png" alt="Image" />
+              <img src="./img/part3.png" alt="/" />
             </div>
           </div>
         </div>
@@ -152,7 +151,7 @@ const Bkride = () => {
       </div>
 
       {/* ============Testimonal========= */}
-      <div className="container">
+      <div >
         <div className={style.testimonaltext}>
           <h4 className={style.text1}> Testimonal </h4>
           <p className={style.text2}>

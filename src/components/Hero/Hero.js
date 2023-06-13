@@ -1,6 +1,6 @@
 import React from "react";
 import "../../components/Hero/hero.css";
-import Carousel from "react-bootstrap/Carousel";
+// import Carousel from "react-bootstrap/Carousel";
 
 const Hero = () => {
   return (

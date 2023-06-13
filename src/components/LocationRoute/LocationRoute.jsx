@@ -1,7 +1,7 @@
 import React from "react";
 import style from "./Location.module.css";
-import Hero2 from "../Hero2/Hero2";
-import { FaLocationArrow, FaLowVision } from "react-icons/fa";
+// import Hero2 from "../Hero2/Hero2";
+import { FaLocationArrow } from "react-icons/fa";
 import { FaRegCreditCard } from "react-icons/fa";
 import { BsFillCartFill } from "react-icons/bs";
 import { MdOutlineMonitor } from "react-icons/md";
@@ -12,14 +12,14 @@ const LocationRoute = () => {
   return (
     <>
       <div className={style.location}>
-        <img className={style.location1} src="./img/location.png" alt="image" />
+        <img className={style.location1} src="./img/location.png" alt="/" />
         <div className="container prt2">
           <div className="hrb">
             <div className="col-md-6 mt-5">
               <img
                 className={style.location2}
                 src="./img/road.png"
-                alt="image"
+                alt="/"
               />
             </div>
             <div className="col-md-6 mt-5 lagos">
@@ -47,19 +47,19 @@ const LocationRoute = () => {
                 </p>
               </div>
               <div class="col">
-                <img src="./img/part1.png" alt="Image" />
+                <img src="./img/part1.png" alt="" />
               </div>
               <div class="col">
-                <img src="./img/part2.png" alt="Image" />
+                <img src="./img/part2.png" alt="" />
               </div>
               <div class="col">
-                <img src="./img/part4.png" alt="Image" />
+                <img src="./img/part4.png" alt="" />
               </div>
               <div class="col">
-                <img src="./img/part5.png" alt="Image" />
+                <img src="./img/part5.png" alt="" />
               </div>
               <div class="col">
-                <img src="./img/part3.png" alt="Image" />
+                <img src="./img/part3.png" alt="" />
               </div>
             </div>
           </div>
@@ -138,7 +138,7 @@ const LocationRoute = () => {
         </div>
       </div>
       {/* <route> */}
-      <img className={style.mapp} src="./img/mappy.png" alt="image" />
+      <img className={style.mapp} src="./img/mappy.png" alt="" />
       {/* Testimonal */}
       <div className={style.mapt}>
         <div className={style.testimonaltext}>

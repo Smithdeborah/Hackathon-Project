@@ -61,9 +61,7 @@ const Navbar = () => {
           </li>
         </ul>
         <div className="sign-up">
-          <a href="#">
             <FaUser />
-          </a>
         </div>
       </nav>
     </>
