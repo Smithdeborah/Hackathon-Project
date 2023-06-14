@@ -9,7 +9,9 @@ const Navbar = () => {
     <>
       <nav className="navbar">
         <div className="logo">
-          <img src={logo} alt="Logo" />
+          <Link to='/Home'>
+            <img src={logo} alt="Logo" />
+          </Link>
         </div>
         <ul>
           <li>
@@ -42,7 +44,7 @@ const Navbar = () => {
               to="/booking"
               style={{ color: "inherit", textDecoration: "none" }}
             >
-            Booking
+              Booking
             </Link>
           </li>
           <li>
